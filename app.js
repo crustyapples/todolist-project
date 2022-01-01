@@ -129,12 +129,6 @@ app.get("/:customListName", function(req,res){
     }
   })
   
-  
-  // WorkItem.find({list:"Work"}, function (err, docs) {
-  //   workItems = docs;
-  //   console.log(workItems);
-  //   res.render("list", {listTitle: "Work List", newListItems: workItems});
-  // });
 });
 
 app.get("/about", function(req, res){
